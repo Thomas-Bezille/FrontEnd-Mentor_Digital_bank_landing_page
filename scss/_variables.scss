@@ -1,0 +1,45 @@
+// ============================================================
+//  VARIABLES
+// ============================================================
+
+// ---------- Colors ----------
+
+// Primary
+$color-blue-950: hsl(233, 26%, 24%); // dark blue – headings, footer
+$color-green-500: hsl(136, 64%, 51%); // gradient start
+$color-cyan-400: hsl(192, 69%, 51%); // gradient end
+
+// Neutral
+$color-gray-600: hsl(233, 8%, 62%); // body copy
+$color-gray-100: hsl(220, 16%, 96%); // light section background
+$color-gray-50: hsl(0, 0%, 98%); // page / card background
+$color-white: hsl(0, 100%, 100%);
+
+// Gradient (buttons, accents)
+$gradient-primary: linear-gradient(
+  to right,
+  $color-green-500,
+  $color-cyan-400
+);
+
+// ---------- Typography ----------
+$font-family-base: "Public Sans", sans-serif;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+$font-size-base: 1.125rem; // 18px – body copy
+
+// ---------- Layout ----------
+$container-max-width: 69.375rem; // 1110px
+$container-padding: 1.5rem; // 24px gutter
+
+// ---------- Breakpoints ----------
+$breakpoint-tablet: 48rem; // 768px
+$breakpoint-desktop: 64rem; // 1024px
+
+// ---------- Misc ----------
+$transition-base: 0.25s ease-in-out;
+$radius-pill: 1.75rem;
+$shadow-card: 0 1.25rem 1.875rem -1rem rgba(0, 0, 0, 0.1);

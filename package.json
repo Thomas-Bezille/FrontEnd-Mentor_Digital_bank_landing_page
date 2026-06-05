@@ -1,0 +1,16 @@
+{
+  "name": "digitalbank-landing-page",
+  "version": "1.0.0",
+  "description": "Frontend Mentor - Digitalbank landing page",
+  "scripts": {
+    "watch": "sass --watch scss/style.scss css/style.css",
+    "build": "sass scss/style.scss css/style.css --no-source-map",
+    "build:min": "sass scss/style.scss css/style.css --style=compressed --no-source-map"
+  },
+  "author": "Thomas Bezille",
+  "license": "MIT",
+  "devDependencies": {
+    "playwright": "^1.60.0",
+    "sass": "^1.100.0"
+  }
+}
