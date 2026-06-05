@@ -33,6 +33,9 @@ npm-debug.log*
 *.swp
 *.swo
 
+# Screenshots (local visual QA)
+/screenshots
+
 # Misc
 *.log
 *.pem
